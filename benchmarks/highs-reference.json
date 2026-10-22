@@ -1,0 +1,2835 @@
+{
+  "method": "Fully enumerated feasible driver-route columns + SciPy HiGHS MILP exact set partitioning",
+  "seed": "0xc0ffee27",
+  "cases": 128,
+  "generatorSha256": "089026cd0a08fc6d3fb223f8da5f9e255d419d9b373e54c81a0d91cb68282789",
+  "scipyVersion": "1.17.0",
+  "hiGHSStatus": "OPTIMAL for every case",
+  "summary": {
+    "exactFullCoverage": 128,
+    "heuristicFullCoverage": 128,
+    "coverageMatchesExact": 128,
+    "averageDistanceRatioWhenCoverageAndPriorityMatch": 1.0163,
+    "worstDistanceRatioWhenCoverageAndPriorityMatch": 1.1667,
+    "matchedObjectives": 128
+  },
+  "rows": [
+    {
+      "id": 0,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 14.7,
+        "status": "OPTIMAL",
+        "columns": 254,
+        "ms": 223.35
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 14.7,
+        "ms": 172.587,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 1,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 18.5,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 223.68
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 18.8,
+        "ms": 27.544,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0162
+    },
+    {
+      "id": 2,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 17.1,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 69.65
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 19.8,
+        "ms": 33.511,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.1579
+    },
+    {
+      "id": 3,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.5,
+        "status": "OPTIMAL",
+        "columns": 1386,
+        "ms": 339.85
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.5,
+        "ms": 41.514,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 4,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 16.8,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 20.75
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 16.8,
+        "ms": 15.711,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 5,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.4,
+        "status": "OPTIMAL",
+        "columns": 538,
+        "ms": 82.11
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 20.3,
+        "ms": 13.383,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.1667
+    },
+    {
+      "id": 6,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 13.5,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 16.62
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 13.5,
+        "ms": 26.411,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 7,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.1,
+        "status": "OPTIMAL",
+        "columns": 1385,
+        "ms": 137.16
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.1,
+        "ms": 6.322,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 8,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.8,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 27.65
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.8,
+        "ms": 34.381,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 9,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 21.1,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 145.92
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 21.2,
+        "ms": 92.18,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0047
+    },
+    {
+      "id": 10,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.3,
+        "status": "OPTIMAL",
+        "columns": 180,
+        "ms": 66.01
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.3,
+        "ms": 40.06,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 11,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 19.9,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 109.71
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 21.2,
+        "ms": 38.496,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0653
+    },
+    {
+      "id": 12,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.0,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 21.96
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18,
+        "ms": 44.268,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 13,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 21.1,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 144.65
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 21.2,
+        "ms": 17.207,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0047
+    },
+    {
+      "id": 14,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 13.1,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 18.67
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 14.6,
+        "ms": 14.765,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.1145
+    },
+    {
+      "id": 15,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 14.8,
+        "status": "OPTIMAL",
+        "columns": 543,
+        "ms": 81.06
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 14.8,
+        "ms": 42.154,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 16,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 15.3,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 34.58
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 15.3,
+        "ms": 38.556,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 17,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 15.9,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 66.65
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 15.9,
+        "ms": 41.589,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 18,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 11.1,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 16.98
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 11.1,
+        "ms": 12.452,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 19,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 9.0,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 96.58
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 9,
+        "ms": 21.753,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 20,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 10.7,
+        "status": "OPTIMAL",
+        "columns": 267,
+        "ms": 26.68
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 10.7,
+        "ms": 197.515,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 21,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 18.8,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 127.65
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 19.4,
+        "ms": 66.3,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0319
+    },
+    {
+      "id": 22,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 13.7,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 35.04
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 13.7,
+        "ms": 9.906,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 23,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.3,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 215.94
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.4,
+        "ms": 90.235,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0061
+    },
+    {
+      "id": 24,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.3,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 27.01
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.3,
+        "ms": 554.983,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 25,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 18.0,
+        "status": "OPTIMAL",
+        "columns": 542,
+        "ms": 92.28
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 18.2,
+        "ms": 56.563,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0111
+    },
+    {
+      "id": 26,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 13.4,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 33.72
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 13.3,
+        "ms": 38.405,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 0.9925
+    },
+    {
+      "id": 27,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.9,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 215.23
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17,
+        "ms": 64.603,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0059
+    },
+    {
+      "id": 28,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.9,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 25.36
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.9,
+        "ms": 30.285,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 29,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 19.2,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 110.47
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 19.2,
+        "ms": 74.158,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 30,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.1,
+        "status": "OPTIMAL",
+        "columns": 191,
+        "ms": 122.89
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.2,
+        "ms": 24.705,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0055
+    },
+    {
+      "id": 31,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 13.2,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 159.09
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 15,
+        "ms": 42.981,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.1364
+    },
+    {
+      "id": 32,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 13.6,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 50.82
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 13.7,
+        "ms": 59.528,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0074
+    },
+    {
+      "id": 33,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.5,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 164.41
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.5,
+        "ms": 43.702,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 34,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 16.0,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 49.75
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 16.1,
+        "ms": 39.582,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0063
+    },
+    {
+      "id": 35,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.7,
+        "status": "OPTIMAL",
+        "columns": 477,
+        "ms": 97.58
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 18.8,
+        "ms": 14.957,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0621
+    },
+    {
+      "id": 36,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 13.5,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 51.84
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 13.5,
+        "ms": 14.356,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 37,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.1,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 131.71
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.1,
+        "ms": 33.637,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 38,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 11.8,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 27.73
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 11.9,
+        "ms": 22.533,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0085
+    },
+    {
+      "id": 39,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 9.4,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 97.17
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 9.5,
+        "ms": 35.328,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0106
+    },
+    {
+      "id": 40,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 14.7,
+        "status": "OPTIMAL",
+        "columns": 253,
+        "ms": 21.01
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 14.7,
+        "ms": 21.962,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 41,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 13.3,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 94.73
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 13.3,
+        "ms": 7.995,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 42,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 12.8,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 43.94
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 12.8,
+        "ms": 21.074,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 43,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 18.8,
+        "status": "OPTIMAL",
+        "columns": 1391,
+        "ms": 136.63
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 19.4,
+        "ms": 28.961,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0319
+    },
+    {
+      "id": 44,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.3,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 37.53
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 19.4,
+        "ms": 21.45,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0601
+    },
+    {
+      "id": 45,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.2,
+        "status": "OPTIMAL",
+        "columns": 446,
+        "ms": 79.28
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.2,
+        "ms": 5.744,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 46,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.5,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 28.93
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.5,
+        "ms": 17.778,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 47,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 20.2,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 128.0
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 20.3,
+        "ms": 18.381,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.005
+    },
+    {
+      "id": 48,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 15.9,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 30.44
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.2,
+        "ms": 9.406,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.1447
+    },
+    {
+      "id": 49,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 19.2,
+        "status": "OPTIMAL",
+        "columns": 1381,
+        "ms": 131.5
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 19.2,
+        "ms": 9.291,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 50,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 14.5,
+        "status": "OPTIMAL",
+        "columns": 233,
+        "ms": 27.51
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 15.2,
+        "ms": 5.931,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0483
+    },
+    {
+      "id": 51,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.2,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 144.88
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.3,
+        "ms": 10.196,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0058
+    },
+    {
+      "id": 52,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 12.0,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 25.75
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 12,
+        "ms": 4.787,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 53,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 11.2,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 95.19
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 11.3,
+        "ms": 6.729,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0089
+    },
+    {
+      "id": 54,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 17.7,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 30.57
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 17.7,
+        "ms": 4.96,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 55,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.5,
+        "status": "OPTIMAL",
+        "columns": 410,
+        "ms": 39.59
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.5,
+        "ms": 5.619,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 56,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 19.6,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 29.46
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 19.7,
+        "ms": 4.324,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0051
+    },
+    {
+      "id": 57,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 14.1,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 115.25
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 14.1,
+        "ms": 6.072,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 58,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 9.3,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 50.26
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 9.3,
+        "ms": 11.269,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 59,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 21.4,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 203.35
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 21.6,
+        "ms": 7.46,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0093
+    },
+    {
+      "id": 60,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 19.5,
+        "status": "OPTIMAL",
+        "columns": 190,
+        "ms": 27.87
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 19.5,
+        "ms": 15.694,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 61,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.7,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 108.87
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.7,
+        "ms": 17.414,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 62,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 16.5,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 46.12
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 17.9,
+        "ms": 15.907,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0848
+    },
+    {
+      "id": 63,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.2,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 262.12
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.2,
+        "ms": 20.951,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 64,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 21.4,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 36.4
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 21.4,
+        "ms": 7.827,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 65,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.7,
+        "status": "OPTIMAL",
+        "columns": 586,
+        "ms": 70.78
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 18.2,
+        "ms": 14.323,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0282
+    },
+    {
+      "id": 66,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 14.1,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 40.83
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 14.1,
+        "ms": 8.031,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 67,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 14.2,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 198.19
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 14.3,
+        "ms": 13.41,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.007
+    },
+    {
+      "id": 68,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.0,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 45.3
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18,
+        "ms": 11.995,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 69,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 18.1,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 132.62
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 18.2,
+        "ms": 12.155,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0055
+    },
+    {
+      "id": 70,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 14.8,
+        "status": "OPTIMAL",
+        "columns": 210,
+        "ms": 30.5
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 16.2,
+        "ms": 16.532,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0946
+    },
+    {
+      "id": 71,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 13.4,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 136.95
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 13.3,
+        "ms": 10.018,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 0.9925
+    },
+    {
+      "id": 72,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 15.0,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 63.36
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 15,
+        "ms": 2.406,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 73,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.6,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 194.66
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.7,
+        "ms": 20.257,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.006
+    },
+    {
+      "id": 74,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 11.5,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 72.12
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 11.5,
+        "ms": 28.723,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 75,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 20.4,
+        "status": "OPTIMAL",
+        "columns": 420,
+        "ms": 105.95
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 20.4,
+        "ms": 8.491,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 76,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 20.7,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 94.3
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 20.7,
+        "ms": 12.4,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 77,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 19.5,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 312.25
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 19.5,
+        "ms": 19.194,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 78,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 15.3,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 41.66
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 15.3,
+        "ms": 20.803,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 79,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 11.1,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 179.3
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 11.1,
+        "ms": 40.415,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 80,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 16.1,
+        "status": "OPTIMAL",
+        "columns": 225,
+        "ms": 88.3
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 16.1,
+        "ms": 7.28,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 81,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 20.6,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 176.54
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 21,
+        "ms": 20.716,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0194
+    },
+    {
+      "id": 82,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 12.9,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 28.07
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 12.9,
+        "ms": 12.198,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 83,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 18.6,
+        "status": "OPTIMAL",
+        "columns": 1380,
+        "ms": 77.82
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 18.6,
+        "ms": 31.664,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 84,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 13.3,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 38.11
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 13.3,
+        "ms": 2.844,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 85,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.8,
+        "status": "OPTIMAL",
+        "columns": 608,
+        "ms": 71.61
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.8,
+        "ms": 30.567,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 86,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 16.1,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 30.13
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 17.6,
+        "ms": 5.522,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0932
+    },
+    {
+      "id": 87,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 15.5,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 118.44
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 15.5,
+        "ms": 13.049,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 88,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 19.1,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 15.5
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 19,
+        "ms": 9.144,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 0.9948
+    },
+    {
+      "id": 89,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 14.4,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 52.68
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 14.4,
+        "ms": 12.284,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 90,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 15.3,
+        "status": "OPTIMAL",
+        "columns": 183,
+        "ms": 10.26
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 17.4,
+        "ms": 5.473,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.1373
+    },
+    {
+      "id": 91,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 19.9,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 51.08
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 20,
+        "ms": 11.087,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.005
+    },
+    {
+      "id": 92,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 16.5,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 14.36
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 16.5,
+        "ms": 44.178,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 93,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 20.7,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 66.71
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 20.7,
+        "ms": 627.821,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 94,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 19.8,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 41.26
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 19.8,
+        "ms": 12.461,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 95,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.7,
+        "status": "OPTIMAL",
+        "columns": 505,
+        "ms": 118.53
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.7,
+        "ms": 5.032,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 96,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.3,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 21.24
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.3,
+        "ms": 4.269,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 97,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 21.1,
+        "status": "OPTIMAL",
+        "columns": 1391,
+        "ms": 445.1
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 22,
+        "ms": 8.11,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0427
+    },
+    {
+      "id": 98,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 13.9,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 122.67
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 14,
+        "ms": 10.606,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0072
+    },
+    {
+      "id": 99,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.9,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 1011.19
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.9,
+        "ms": 7.675,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0592
+    },
+    {
+      "id": 100,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 12.6,
+        "status": "OPTIMAL",
+        "columns": 222,
+        "ms": 47.62
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 12.6,
+        "ms": 26.307,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 101,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 13.5,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 328.28
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 14.6,
+        "ms": 37.319,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0815
+    },
+    {
+      "id": 102,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 13.7,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 80.84
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 13.7,
+        "ms": 4.971,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 103,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.7,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 106.69
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.7,
+        "ms": 24.165,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 104,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 11.4,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 31.51
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 11.4,
+        "ms": 1.522,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 105,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 15.6,
+        "status": "OPTIMAL",
+        "columns": 578,
+        "ms": 347.35
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 15.6,
+        "ms": 24.955,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 106,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 16.3,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 132.63
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 16.8,
+        "ms": 9.846,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0307
+    },
+    {
+      "id": 107,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.2,
+        "status": "OPTIMAL",
+        "columns": 1388,
+        "ms": 446.41
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.2,
+        "ms": 134.475,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 108,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 16.6,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 83.92
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 17.1,
+        "ms": 41.868,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0301
+    },
+    {
+      "id": 109,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.2,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 142.08
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.8,
+        "ms": 44.086,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.037
+    },
+    {
+      "id": 110,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 15.4,
+        "status": "OPTIMAL",
+        "columns": 173,
+        "ms": 43.52
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 17.6,
+        "ms": 55.948,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.1429
+    },
+    {
+      "id": 111,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 21.3,
+        "status": "OPTIMAL",
+        "columns": 1377,
+        "ms": 141.03
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 21.3,
+        "ms": 36.146,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 112,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 16.2,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 86.92
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 16.2,
+        "ms": 8.874,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 113,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 18.6,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 179.97
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 18.6,
+        "ms": 36.267,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 114,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 19.0,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 26.27
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 19,
+        "ms": 29.075,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 115,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 20.7,
+        "status": "OPTIMAL",
+        "columns": 403,
+        "ms": 78.01
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 21.3,
+        "ms": 27.569,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.029
+    },
+    {
+      "id": 116,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.9,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 31.1
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.9,
+        "ms": 4.417,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 117,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 16.6,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 218.44
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.1,
+        "ms": 14.331,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0301
+    },
+    {
+      "id": 118,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 14.1,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 43.49
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 14.1,
+        "ms": 4.256,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 119,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 15.0,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 332.98
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 15,
+        "ms": 8.536,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 120,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 10.6,
+        "status": "OPTIMAL",
+        "columns": 194,
+        "ms": 39.86
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 10.6,
+        "ms": 8.905,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 121,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 12.9,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 135.55
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 12.9,
+        "ms": 12.407,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 122,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 10.1,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 45.18
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 10,
+        "ms": 4.489,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 0.9901
+    },
+    {
+      "id": 123,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 15.4,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 164.24
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 15.4,
+        "ms": 4.8,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 124,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.3,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 45.74
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.3,
+        "ms": 12.081,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 125,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 12.2,
+        "status": "OPTIMAL",
+        "columns": 1055,
+        "ms": 109.28
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 12.2,
+        "ms": 4.237,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 126,
+      "stops": 5,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.3,
+        "status": "OPTIMAL",
+        "columns": 290,
+        "ms": 41.15
+      },
+      "heuristic": {
+        "coverage": 5,
+        "priorityUncovered": 0,
+        "totalKm": 18.3,
+        "ms": 6.234,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    },
+    {
+      "id": 127,
+      "stops": 6,
+      "activeDrivers": 2,
+      "exact": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.4,
+        "status": "OPTIMAL",
+        "columns": 1392,
+        "ms": 90.96
+      },
+      "heuristic": {
+        "coverage": 6,
+        "priorityUncovered": 0,
+        "totalKm": 17.4,
+        "ms": 6.829,
+        "independentlyValidatedByProject": true,
+        "uncovered": []
+      },
+      "distanceRatioAtMatchingCoverage": 1.0
+    }
+  ],
+  "limitations": "Small synthetic 5\u20137-stop instances. Reference enumerates all feasible sequences and uses SciPy HiGHS, not OR-Tools. No real road/time data. Heuristic can have inferior coverage or distance. Only matching objective levels have comparable distance ratios."
+}

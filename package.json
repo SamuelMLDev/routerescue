@@ -1,0 +1,27 @@
+{
+  "name": "routerescue",
+  "version": "5.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP-native, independently benchmarked community-delivery resilience engine",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test",
+    "smoke": "node scripts/smoke.js",
+    "check": "npm test && npm run smoke",
+    "benchmark": "node scripts/benchmark.js",
+    "oracle": "node scripts/oracle-benchmark.js",
+    "verify-proof": "node scripts/verify-certificate.js",
+    "stress": "node scripts/stress.js",
+    "frontier-benchmark": "node scripts/evaluate-frontier.js",
+    "auth-smoke": "node scripts/auth-smoke.js",
+    "reference-benchmark": "python scripts/reference-benchmark.py --cases 128",
+    "model-contract": "node scripts/model-contract-smoke.js",
+    "agent-challenge": "node scripts/agent-challenge.js",
+    "check:release": "npm test && npm run smoke && npm run model-contract && npm run agent-challenge"
+  }
+}

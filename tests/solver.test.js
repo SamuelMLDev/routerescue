@@ -1,0 +1,13 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {rescue,simulate,evaluate,assertIntegrity,travelMinutes} from '../server/solver.js';
+const scenario=JSON.parse(fs.readFileSync(new URL('../seed/demo.json',import.meta.url),'utf8'));
+test('the initial plan is feasible and has 16 unique stops',()=>{assert.equal(evaluate(scenario,scenario.routes).valid,true);assert.equal(new Set(Object.values(scenario.routes).flat()).size,16);});
+test('all four driver cancellation scenarios find a complete, verified reassignment',()=>{for(const driver of scenario.drivers){const p=rescue(scenario,driver.id);assert.equal(p.uncovered.length,0);assert.equal(p.metrics.covered,4);assert.equal(p.metrics.violations,0);assertIntegrity(scenario,p.routes,driver.id);}});
+test('all stops have valid arrival times and the unavailable driver has no stops',()=>{const p=rescue(scenario,'sam');assert.deepEqual(p.routes.sam,[]);for(const d of scenario.drivers.filter(d=>d.id!=='sam')){const route=simulate(scenario,p.routes[d.id]);assert.equal(route.valid,true);for(const event of route.schedule){const stop=scenario.stops.find(x=>x.id===event.stopId);assert.ok(event.arrival>=stop.windowStart);assert.ok(event.arrival<=stop.windowEnd);}}});
+test('the solver is deterministic over repeated executions',()=>{const first=rescue(scenario,'sam');for(let i=0;i<5;i++)assert.deepEqual(rescue(scenario,'sam').routes,first.routes);});
+test('hard capacity restrictions are respected even when coverage becomes impossible',()=>{const constrained=structuredClone(scenario);constrained.drivers.filter(d=>d.id!=='sam').forEach(d=>d.capacity=4);const p=rescue(constrained,'sam');assert.ok(p.uncovered.length>0);assertIntegrity(constrained,p.routes,'sam',p.uncovered);});
+test('tight delivery windows cannot be breached',()=>{const s=structuredClone(scenario);s.stops.find(x=>x.id==='N04').windowEnd=540;assert.equal(simulate(s,['N04']).valid,false);});
+test('duplicate assignment and excess capacity are detected',()=>{const routes=structuredClone(scenario.routes);routes.priya.push('N01');assert.throws(()=>assertIntegrity(scenario,routes,null),/capacity|exactly once/);});
+test('travel geometry is symmetric and non-negative',()=>{const a=scenario.stops[0],b=scenario.stops[1];assert.equal(travelMinutes(a,b),travelMinutes(b,a));assert.equal(travelMinutes(a,a),0);});

@@ -1,0 +1,8 @@
+{
+  "kind": "Offline intent and safety regression (no model)",
+  "cases": 82,
+  "matched": 82,
+  "matchRate": 100,
+  "misses": [],
+  "limitations": "Curated, in-sample developer-crafted paraphrases. This is not a blind, real-world semantic understanding benchmark and does not measure a hosted LLM. Even a matched intent is not proof of a correct route outcome."
+}

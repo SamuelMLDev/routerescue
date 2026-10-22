@@ -1,0 +1,68 @@
+{
+  "description": "Six fictional micro-instances with a cancelled driver; all six stops reassigned to two active drivers; exact exhaustive distance optimum versus bounded production heuristic.",
+  "limitations": "Exact search only works at tiny size. Ratios do not extrapolate to the 40-stop scenario. Geometry and windows are synthetic.",
+  "instances": [
+    {
+      "variant": 0,
+      "minimumKm": 21.8,
+      "heuristicKm": 22.2,
+      "coverage": 6,
+      "ratio": 1.018,
+      "oracleNodes": 6084,
+      "oracleCompleteAssignments": 30,
+      "exactMs": 56
+    },
+    {
+      "variant": 1,
+      "minimumKm": 17.3,
+      "heuristicKm": 18,
+      "coverage": 6,
+      "ratio": 1.04,
+      "oracleNodes": 5330,
+      "oracleCompleteAssignments": 21,
+      "exactMs": 37
+    },
+    {
+      "variant": 2,
+      "minimumKm": 14.7,
+      "heuristicKm": 14.7,
+      "coverage": 6,
+      "ratio": 1,
+      "oracleNodes": 4423,
+      "oracleCompleteAssignments": 17,
+      "exactMs": 12
+    },
+    {
+      "variant": 3,
+      "minimumKm": 15.3,
+      "heuristicKm": 15.7,
+      "coverage": 6,
+      "ratio": 1.026,
+      "oracleNodes": 4392,
+      "oracleCompleteAssignments": 26,
+      "exactMs": 12
+    },
+    {
+      "variant": 4,
+      "minimumKm": 17.1,
+      "heuristicKm": 18.2,
+      "coverage": 6,
+      "ratio": 1.064,
+      "oracleNodes": 4597,
+      "oracleCompleteAssignments": 16,
+      "exactMs": 6
+    },
+    {
+      "variant": 5,
+      "minimumKm": 18.2,
+      "heuristicKm": 18.9,
+      "coverage": 6,
+      "ratio": 1.038,
+      "oracleNodes": 4884,
+      "oracleCompleteAssignments": 31,
+      "exactMs": 9
+    }
+  ],
+  "meanDistanceRatio": 1.031,
+  "worstDistanceRatio": 1.064
+}

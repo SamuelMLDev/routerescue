@@ -1,0 +1,12 @@
+{
+  "seed": "0x6a09e667",
+  "cases": 240,
+  "complete": 70,
+  "partial": 170,
+  "failures": [],
+  "inputRejections": 1000,
+  "originalFixtureUnchanged": true,
+  "meanMs": 98.67,
+  "worstMs": 901.39,
+  "claims": "Synthetic property/fault testing only. Timings depend on hardware. Not real-world performance or proof of global optimality."
+}

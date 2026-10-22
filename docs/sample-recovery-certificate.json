@@ -1,0 +1,699 @@
+{
+  "payload": {
+    "format": "routerescue.recovery-certificate.v1",
+    "disclaimer": "Synthetic geography and fictional identities. Not a proof of optimality, authorship, trusted time, or real-world travel accuracy.",
+    "version": 1,
+    "status": "proposed",
+    "proposalId": "example-two-driver-outage",
+    "strategy": "balanced",
+    "depot": {
+      "id": "depot",
+      "name": "Northbank Kitchen",
+      "x": 50,
+      "y": 50
+    },
+    "drivers": [
+      {
+        "id": "sam",
+        "name": "Sam Rivera",
+        "initials": "SR",
+        "color": "#d18d63",
+        "vehicle": "Van · 8 parcels",
+        "capacity": 8,
+        "available": true,
+        "shiftStart": 540,
+        "shiftEnd": 810
+      },
+      {
+        "id": "priya",
+        "name": "Priya Shah",
+        "initials": "PS",
+        "color": "#8b79d3",
+        "vehicle": "Car · 8 parcels",
+        "capacity": 8,
+        "available": true,
+        "shiftStart": 540,
+        "shiftEnd": 810
+      },
+      {
+        "id": "leo",
+        "name": "Leo Martins",
+        "initials": "LM",
+        "color": "#2e9e91",
+        "vehicle": "Car · 8 parcels",
+        "capacity": 8,
+        "available": true,
+        "shiftStart": 540,
+        "shiftEnd": 810
+      },
+      {
+        "id": "maya",
+        "name": "Maya Chen",
+        "initials": "MC",
+        "color": "#d6a047",
+        "vehicle": "Van · 8 parcels",
+        "capacity": 8,
+        "available": true,
+        "shiftStart": 540,
+        "shiftEnd": 810
+      },
+      {
+        "id": "noah",
+        "name": "Noah Brooks",
+        "initials": "NB",
+        "color": "#4f8fb5",
+        "vehicle": "Car · 8 parcels",
+        "capacity": 8,
+        "available": true,
+        "shiftStart": 540,
+        "shiftEnd": 810
+      },
+      {
+        "id": "ella",
+        "name": "Ella Wilson",
+        "initials": "EW",
+        "color": "#bd7096",
+        "vehicle": "Car · 8 parcels",
+        "capacity": 8,
+        "available": true,
+        "shiftStart": 540,
+        "shiftEnd": 810
+      },
+      {
+        "id": "amina",
+        "name": "Amina Okafor",
+        "initials": "AO",
+        "color": "#579a68",
+        "vehicle": "Van · 8 parcels",
+        "capacity": 8,
+        "available": true,
+        "shiftStart": 540,
+        "shiftEnd": 810
+      },
+      {
+        "id": "owen",
+        "name": "Owen Clarke",
+        "initials": "OC",
+        "color": "#9b8b65",
+        "vehicle": "Car · 8 parcels",
+        "capacity": 8,
+        "available": true,
+        "shiftStart": 540,
+        "shiftEnd": 810
+      }
+    ],
+    "stops": [
+      {
+        "id": "N01",
+        "name": "Willow Court",
+        "address": "3 Willow Court",
+        "x": 14,
+        "y": 22,
+        "windowStart": 540,
+        "windowEnd": 675,
+        "service": 5,
+        "priority": "Priority"
+      },
+      {
+        "id": "N02",
+        "name": "Ashford House",
+        "address": "6 Ashford House",
+        "x": 17,
+        "y": 14,
+        "windowStart": 540,
+        "windowEnd": 766,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N03",
+        "name": "Oak Gardens",
+        "address": "9 Oak Gardens",
+        "x": 22,
+        "y": 31,
+        "windowStart": 540,
+        "windowEnd": 774,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N04",
+        "name": "Maple Terrace",
+        "address": "12 Maple Terrace",
+        "x": 35,
+        "y": 19,
+        "windowStart": 540,
+        "windowEnd": 750,
+        "service": 7,
+        "priority": "Standard"
+      },
+      {
+        "id": "N05",
+        "name": "Harbour View",
+        "address": "15 Harbour View",
+        "x": 29,
+        "y": 27,
+        "windowStart": 540,
+        "windowEnd": 758,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N06",
+        "name": "Kingfisher Mews",
+        "address": "18 Kingfisher Mews",
+        "x": 71,
+        "y": 20,
+        "windowStart": 540,
+        "windowEnd": 675,
+        "service": 5,
+        "priority": "Priority"
+      },
+      {
+        "id": "N07",
+        "name": "Riverside Flats",
+        "address": "21 Riverside Flats",
+        "x": 86,
+        "y": 19,
+        "windowStart": 540,
+        "windowEnd": 774,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N08",
+        "name": "Birch Square",
+        "address": "24 Birch Square",
+        "x": 82,
+        "y": 23,
+        "windowStart": 540,
+        "windowEnd": 750,
+        "service": 7,
+        "priority": "Standard"
+      },
+      {
+        "id": "N09",
+        "name": "Elm Rise",
+        "address": "27 Elm Rise",
+        "x": 84,
+        "y": 29,
+        "windowStart": 540,
+        "windowEnd": 758,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N10",
+        "name": "Westmoor Place",
+        "address": "30 Westmoor Place",
+        "x": 63,
+        "y": 14,
+        "windowStart": 540,
+        "windowEnd": 766,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N11",
+        "name": "Hawthorn Close",
+        "address": "33 Hawthorn Close",
+        "x": 14,
+        "y": 75,
+        "windowStart": 540,
+        "windowEnd": 774,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N12",
+        "name": "Linden Walk",
+        "address": "36 Linden Walk",
+        "x": 17,
+        "y": 71,
+        "windowStart": 540,
+        "windowEnd": 675,
+        "service": 7,
+        "priority": "Priority"
+      },
+      {
+        "id": "N13",
+        "name": "Station Gardens",
+        "address": "39 Station Gardens",
+        "x": 26,
+        "y": 84,
+        "windowStart": 540,
+        "windowEnd": 758,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N14",
+        "name": "Meadowcroft",
+        "address": "42 Meadowcroft",
+        "x": 15,
+        "y": 82,
+        "windowStart": 540,
+        "windowEnd": 766,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N15",
+        "name": "Copperfield Row",
+        "address": "45 Copperfield Row",
+        "x": 20,
+        "y": 76,
+        "windowStart": 540,
+        "windowEnd": 774,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N16",
+        "name": "Orchard Bend",
+        "address": "48 Orchard Bend",
+        "x": 64,
+        "y": 70,
+        "windowStart": 540,
+        "windowEnd": 750,
+        "service": 7,
+        "priority": "Standard"
+      },
+      {
+        "id": "N17",
+        "name": "Meadow Hall",
+        "address": "51 Meadow Hall",
+        "x": 61,
+        "y": 72,
+        "windowStart": 540,
+        "windowEnd": 758,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N18",
+        "name": "Old Mill",
+        "address": "54 Old Mill",
+        "x": 69,
+        "y": 64,
+        "windowStart": 540,
+        "windowEnd": 675,
+        "service": 5,
+        "priority": "Priority"
+      },
+      {
+        "id": "N19",
+        "name": "Canal Walk",
+        "address": "57 Canal Walk",
+        "x": 71,
+        "y": 83,
+        "windowStart": 540,
+        "windowEnd": 774,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N20",
+        "name": "Holly Court",
+        "address": "60 Holly Court",
+        "x": 70,
+        "y": 66,
+        "windowStart": 540,
+        "windowEnd": 750,
+        "service": 7,
+        "priority": "Standard"
+      },
+      {
+        "id": "N21",
+        "name": "Juniper Place",
+        "address": "63 Juniper Place",
+        "x": 61,
+        "y": 14,
+        "windowStart": 540,
+        "windowEnd": 758,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N22",
+        "name": "Bridge Row",
+        "address": "66 Bridge Row",
+        "x": 52,
+        "y": 19,
+        "windowStart": 540,
+        "windowEnd": 766,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N23",
+        "name": "Tamarind Close",
+        "address": "69 Tamarind Close",
+        "x": 60,
+        "y": 31,
+        "windowStart": 540,
+        "windowEnd": 774,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N24",
+        "name": "Hazel Gardens",
+        "address": "72 Hazel Gardens",
+        "x": 58,
+        "y": 21,
+        "windowStart": 540,
+        "windowEnd": 675,
+        "service": 7,
+        "priority": "Priority"
+      },
+      {
+        "id": "N25",
+        "name": "Roseberry Mews",
+        "address": "75 Roseberry Mews",
+        "x": 55,
+        "y": 25,
+        "windowStart": 540,
+        "windowEnd": 758,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N26",
+        "name": "Brookside House",
+        "address": "78 Brookside House",
+        "x": 58,
+        "y": 72,
+        "windowStart": 540,
+        "windowEnd": 766,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N27",
+        "name": "Quay House",
+        "address": "81 Quay House",
+        "x": 48,
+        "y": 79,
+        "windowStart": 540,
+        "windowEnd": 774,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N28",
+        "name": "Rosewood Lane",
+        "address": "84 Rosewood Lane",
+        "x": 57,
+        "y": 67,
+        "windowStart": 540,
+        "windowEnd": 750,
+        "service": 7,
+        "priority": "Standard"
+      },
+      {
+        "id": "N29",
+        "name": "Abbey Place",
+        "address": "87 Abbey Place",
+        "x": 50,
+        "y": 79,
+        "windowStart": 540,
+        "windowEnd": 758,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N30",
+        "name": "Grove Heights",
+        "address": "90 Grove Heights",
+        "x": 59,
+        "y": 88,
+        "windowStart": 540,
+        "windowEnd": 675,
+        "service": 5,
+        "priority": "Priority"
+      },
+      {
+        "id": "N31",
+        "name": "Market Square",
+        "address": "93 Market Square",
+        "x": 10,
+        "y": 39,
+        "windowStart": 540,
+        "windowEnd": 774,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N32",
+        "name": "Waterbank",
+        "address": "96 Waterbank",
+        "x": 22,
+        "y": 55,
+        "windowStart": 540,
+        "windowEnd": 750,
+        "service": 7,
+        "priority": "Standard"
+      },
+      {
+        "id": "N33",
+        "name": "Cedar Villas",
+        "address": "99 Cedar Villas",
+        "x": 8,
+        "y": 49,
+        "windowStart": 540,
+        "windowEnd": 758,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N34",
+        "name": "Queens Meadow",
+        "address": "102 Queens Meadow",
+        "x": 22,
+        "y": 41,
+        "windowStart": 540,
+        "windowEnd": 766,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N35",
+        "name": "Ironbridge",
+        "address": "105 Ironbridge",
+        "x": 27,
+        "y": 48,
+        "windowStart": 540,
+        "windowEnd": 774,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N36",
+        "name": "Church End",
+        "address": "108 Church End",
+        "x": 72,
+        "y": 50,
+        "windowStart": 540,
+        "windowEnd": 675,
+        "service": 7,
+        "priority": "Priority"
+      },
+      {
+        "id": "N37",
+        "name": "Chestnut Close",
+        "address": "111 Chestnut Close",
+        "x": 80,
+        "y": 59,
+        "windowStart": 540,
+        "windowEnd": 675,
+        "service": 5,
+        "priority": "Priority"
+      },
+      {
+        "id": "N38",
+        "name": "Millbrook",
+        "address": "114 Millbrook",
+        "x": 90,
+        "y": 59,
+        "windowStart": 540,
+        "windowEnd": 766,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N39",
+        "name": "Foxhall Gardens",
+        "address": "117 Foxhall Gardens",
+        "x": 70,
+        "y": 57,
+        "windowStart": 540,
+        "windowEnd": 774,
+        "service": 5,
+        "priority": "Standard"
+      },
+      {
+        "id": "N40",
+        "name": "Heather Rise",
+        "address": "120 Heather Rise",
+        "x": 71,
+        "y": 50,
+        "windowStart": 540,
+        "windowEnd": 750,
+        "service": 7,
+        "priority": "Standard"
+      }
+    ],
+    "unavailableDriverIds": [
+      "sam",
+      "priya"
+    ],
+    "baselineRoutes": {
+      "sam": [
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "N05"
+      ],
+      "priya": [
+        "N06",
+        "N07",
+        "N08",
+        "N09",
+        "N10"
+      ],
+      "leo": [
+        "N11",
+        "N12",
+        "N13",
+        "N14",
+        "N15"
+      ],
+      "maya": [
+        "N16",
+        "N17",
+        "N18",
+        "N19",
+        "N20"
+      ],
+      "noah": [
+        "N21",
+        "N22",
+        "N23",
+        "N24",
+        "N25"
+      ],
+      "ella": [
+        "N26",
+        "N27",
+        "N28",
+        "N29",
+        "N30"
+      ],
+      "amina": [
+        "N31",
+        "N32",
+        "N33",
+        "N34",
+        "N35"
+      ],
+      "owen": [
+        "N36",
+        "N37",
+        "N38",
+        "N39",
+        "N40"
+      ]
+    },
+    "proposedRoutes": {
+      "sam": [],
+      "priya": [],
+      "leo": [
+        "N05",
+        "N02",
+        "N11",
+        "N12",
+        "N13",
+        "N14",
+        "N15"
+      ],
+      "maya": [
+        "N03",
+        "N16",
+        "N17",
+        "N18",
+        "N19",
+        "N20"
+      ],
+      "noah": [
+        "N06",
+        "N10",
+        "N21",
+        "N22",
+        "N23",
+        "N24",
+        "N25"
+      ],
+      "ella": [
+        "N40",
+        "N26",
+        "N27",
+        "N29",
+        "N30",
+        "N28"
+      ],
+      "amina": [
+        "N04",
+        "N01",
+        "N31",
+        "N33",
+        "N32",
+        "N34",
+        "N35"
+      ],
+      "owen": [
+        "N36",
+        "N09",
+        "N07",
+        "N08",
+        "N37",
+        "N38",
+        "N39"
+      ]
+    },
+    "uncovered": [],
+    "claimed": {
+      "total": 40,
+      "covered": 40,
+      "uncovered": 0,
+      "affected": 10,
+      "drivers": 6,
+      "priorityProtected": 8,
+      "priorityTotal": 8,
+      "priorityUncovered": 0,
+      "totalKm": 82.7,
+      "addedKm": 19.5,
+      "violations": 0,
+      "workloadSpreadMinutes": 6,
+      "minimumSlackMinutes": 89,
+      "moved": 11
+    },
+    "auditHead": null
+  },
+  "sha256": "b0a103ec528dadb5bd4d0362858134c80238dd27af9e455379b55ce6c3dae7d4",
+  "verification": {
+    "valid": true,
+    "reason": "Every delivery is accounted for; all route, load, skill, shift and time-window constraints were independently checked.",
+    "facts": {
+      "assigned": 40,
+      "uncovered": 0,
+      "priorityProtected": 8,
+      "priorityTotal": 8,
+      "kilometres": 82.7,
+      "minimumSlackMinutes": 89,
+      "drivers": 8,
+      "sha256": "b0a103ec528dadb5bd4d0362858134c80238dd27af9e455379b55ce6c3dae7d4"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+ "name":"Northbank Community Meals","dateLabel":"Thursday delivery shift","demo":true,"version":1,"mode":"normal","unavailableDriverId":null,"proposal":null,"history":null,
+ "depot":{"id":"depot","name":"Northbank Kitchen","x":50,"y":50},
+ "drivers":[
+  {"id":"sam","name":"Sam Rivera","initials":"SR","color":"#d18d63","vehicle":"Van · 6 parcels","capacity":6,"available":true},
+  {"id":"priya","name":"Priya Shah","initials":"PS","color":"#8b79d3","vehicle":"Car · 6 parcels","capacity":6,"available":true},
+  {"id":"leo","name":"Leo Martins","initials":"LM","color":"#2e9e91","vehicle":"Car · 6 parcels","capacity":6,"available":true},
+  {"id":"maya","name":"Maya Chen","initials":"MC","color":"#d6a047","vehicle":"Van · 6 parcels","capacity":6,"available":true}
+ ],
+ "stops":[
+  {"id":"N01","name":"Willow Court","address":"12 Willow Court","x":22,"y":25,"windowStart":540,"windowEnd":690,"service":5,"priority":"Priority"},
+  {"id":"N02","name":"Ashford House","address":"18 Ashford Lane","x":30,"y":35,"windowStart":540,"windowEnd":730,"service":5,"priority":"Standard"},
+  {"id":"N03","name":"Oak Gardens","address":"7 Oak Gardens","x":38,"y":22,"windowStart":540,"windowEnd":735,"service":5,"priority":"Standard"},
+  {"id":"N04","name":"Maple Terrace","address":"42 Maple Terrace","x":39,"y":43,"windowStart":540,"windowEnd":755,"service":5,"priority":"Standard"},
+  {"id":"N05","name":"Harbour View","address":"8 Harbour View","x":64,"y":19,"windowStart":540,"windowEnd":725,"service":5,"priority":"Standard"},
+  {"id":"N06","name":"Kingfisher Mews","address":"19 Kingfisher Way","x":75,"y":32,"windowStart":540,"windowEnd":755,"service":5,"priority":"Standard"},
+  {"id":"N07","name":"Riverside Flats","address":"2 Riverside Flats","x":82,"y":20,"windowStart":540,"windowEnd":730,"service":5,"priority":"Standard"},
+  {"id":"N08","name":"Birch Square","address":"9 Birch Square","x":61,"y":39,"windowStart":540,"windowEnd":740,"service":5,"priority":"Standard"},
+  {"id":"N09","name":"Elm Rise","address":"24 Elm Rise","x":24,"y":65,"windowStart":540,"windowEnd":755,"service":5,"priority":"Standard"},
+  {"id":"N10","name":"Westmoor Place","address":"3 Westmoor Place","x":34,"y":81,"windowStart":540,"windowEnd":755,"service":5,"priority":"Standard"},
+  {"id":"N11","name":"Hawthorn Close","address":"25 Hawthorn Close","x":17,"y":75,"windowStart":540,"windowEnd":745,"service":5,"priority":"Standard"},
+  {"id":"N12","name":"Linden Walk","address":"11 Linden Walk","x":43,"y":66,"windowStart":540,"windowEnd":760,"service":5,"priority":"Standard"},
+  {"id":"N13","name":"Station Gardens","address":"6 Station Gardens","x":68,"y":71,"windowStart":540,"windowEnd":760,"service":5,"priority":"Standard"},
+  {"id":"N14","name":"Meadowcroft","address":"15 Meadowcroft","x":83,"y":81,"windowStart":540,"windowEnd":770,"service":5,"priority":"Standard"},
+  {"id":"N15","name":"Copperfield Row","address":"38 Copperfield Row","x":77,"y":59,"windowStart":540,"windowEnd":740,"service":5,"priority":"Standard"},
+  {"id":"N16","name":"Orchard Bend","address":"4 Orchard Bend","x":57,"y":82,"windowStart":540,"windowEnd":765,"service":5,"priority":"Standard"}
+ ],
+ "routes":{"sam":["N01","N03","N02","N04"],"priya":["N05","N07","N06","N08"],"leo":["N09","N11","N10","N12"],"maya":["N15","N13","N14","N16"]},"log":[{"kind":"info","text":"All 16 deliveries scheduled","at":"08:52"}]
+}

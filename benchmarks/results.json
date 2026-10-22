@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "name": "RouteRescue algorithm comparison",
+    "fixture": "fictional scenario data",
+    "method": "same deterministic seed; single process; no external API; durations depend on machine",
+    "timing": "high-resolution wall time",
+    "quality": "feasibility and plan characteristics only; not global optimality"
+  },
+  "legacy": [
+    {
+      "driver": "sam",
+      "affected": 4,
+      "baselineCovered": 16,
+      "baselineKm": 36.1,
+      "baselineMs": 16,
+      "newCovered": 16,
+      "newKm": 36,
+      "newMs": 204,
+      "allRoutesValid": true
+    },
+    {
+      "driver": "priya",
+      "affected": 4,
+      "baselineCovered": 16,
+      "baselineKm": 37.1,
+      "baselineMs": 3,
+      "newCovered": 16,
+      "newKm": 37.1,
+      "newMs": 176,
+      "allRoutesValid": true
+    },
+    {
+      "driver": "leo",
+      "affected": 4,
+      "baselineCovered": 16,
+      "baselineKm": 37.1,
+      "baselineMs": 1,
+      "newCovered": 16,
+      "newKm": 37.1,
+      "newMs": 148,
+      "allRoutesValid": true
+    },
+    {
+      "driver": "maya",
+      "affected": 4,
+      "baselineCovered": 16,
+      "baselineKm": 36.1,
+      "baselineMs": 2,
+      "newCovered": 16,
+      "newKm": 36.1,
+      "newMs": 169,
+      "allRoutesValid": true
+    }
+  ],
+  "incidentLab": [
+    {
+      "blocked": [
+        "sam"
+      ],
+      "milliseconds": 2583,
+      "plans": {
+        "distance": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 67.8,
+          "workloadSpreadMinutes": 13,
+          "validated": true
+        },
+        "balanced": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 76.2,
+          "workloadSpreadMinutes": 7,
+          "validated": true
+        },
+        "priority": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 68.5,
+          "workloadSpreadMinutes": 7,
+          "validated": true
+        }
+      }
+    },
+    {
+      "blocked": [
+        "priya"
+      ],
+      "milliseconds": 2424,
+      "plans": {
+        "distance": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 71.1,
+          "workloadSpreadMinutes": 12,
+          "validated": true
+        },
+        "balanced": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 79.2,
+          "workloadSpreadMinutes": 5,
+          "validated": true
+        },
+        "priority": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 71.6,
+          "workloadSpreadMinutes": 9,
+          "validated": true
+        }
+      }
+    },
+    {
+      "blocked": [
+        "leo"
+      ],
+      "milliseconds": 2483,
+      "plans": {
+        "distance": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 75,
+          "workloadSpreadMinutes": 15,
+          "validated": true
+        },
+        "balanced": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 82,
+          "workloadSpreadMinutes": 5,
+          "validated": true
+        },
+        "priority": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 72.9,
+          "workloadSpreadMinutes": 14,
+          "validated": true
+        }
+      }
+    },
+    {
+      "blocked": [
+        "maya"
+      ],
+      "milliseconds": 2157,
+      "plans": {
+        "distance": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 69.2,
+          "workloadSpreadMinutes": 9,
+          "validated": true
+        },
+        "balanced": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 78.2,
+          "workloadSpreadMinutes": 7,
+          "validated": true
+        },
+        "priority": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 69.1,
+          "workloadSpreadMinutes": 8,
+          "validated": true
+        }
+      }
+    },
+    {
+      "blocked": [
+        "sam",
+        "priya"
+      ],
+      "milliseconds": 1602,
+      "plans": {
+        "distance": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 73.1,
+          "workloadSpreadMinutes": 13,
+          "validated": true
+        },
+        "balanced": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 77.4,
+          "workloadSpreadMinutes": 6,
+          "validated": true
+        },
+        "priority": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 74.2,
+          "workloadSpreadMinutes": 12,
+          "validated": true
+        }
+      }
+    },
+    {
+      "blocked": [
+        "sam",
+        "leo"
+      ],
+      "milliseconds": 1661,
+      "plans": {
+        "distance": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 71.4,
+          "workloadSpreadMinutes": 12,
+          "validated": true
+        },
+        "balanced": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 79.1,
+          "workloadSpreadMinutes": 2,
+          "validated": true
+        },
+        "priority": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 72.8,
+          "workloadSpreadMinutes": 11,
+          "validated": true
+        }
+      }
+    },
+    {
+      "blocked": [
+        "sam",
+        "priya",
+        "leo"
+      ],
+      "milliseconds": 1344,
+      "plans": {
+        "distance": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 76.5,
+          "workloadSpreadMinutes": 6,
+          "validated": true
+        },
+        "balanced": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 74.4,
+          "workloadSpreadMinutes": 5,
+          "validated": true
+        },
+        "priority": {
+          "covered": 40,
+          "priorityCovered": 8,
+          "uncovered": 0,
+          "km": 76.5,
+          "workloadSpreadMinutes": 6,
+          "validated": true
+        }
+      }
+    },
+    {
+      "blocked": [
+        "sam",
+        "priya",
+        "leo",
+        "maya"
+      ],
+      "milliseconds": 1152,
+      "plans": {
+        "distance": {
+          "covered": 32,
+          "priorityCovered": 8,
+          "uncovered": 8,
+          "km": 56.1,
+          "workloadSpreadMinutes": 4,
+          "validated": true
+        },
+        "balanced": {
+          "covered": 32,
+          "priorityCovered": 8,
+          "uncovered": 8,
+          "km": 50.8,
+          "workloadSpreadMinutes": 3,
+          "validated": true
+        },
+        "priority": {
+          "covered": 32,
+          "priorityCovered": 8,
+          "uncovered": 8,
+          "km": 56.1,
+          "workloadSpreadMinutes": 4,
+          "validated": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Optional benchmark research only. The app itself requires Node.js, no Python packages.
+scipy==1.17.0
