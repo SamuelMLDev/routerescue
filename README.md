@@ -7,14 +7,14 @@
 
 **A verifiable, MCP-native operational recovery and counterfactual planning system for community deliveries.**
 
-![RouteRescue intervention theatre — eight stop slots, mathematically proven necessary and independently verified sufficient](docs/screenshots/23-minimum-intervention-theatre.png)
+![RouteRescue intervention theatre — eight stop slots, mathematically proven necessary and independently verified sufficient](docs/screenshots/23-minimum-intervention-theatre.webp)
 
 *All locations and names are invented. The optimisation, protocol calls, version controls, scenario analysis and independent verification are real computations against synthetic inputs.*
 </div>
 
 ## Explore the Evidence Centre
 
-<img src="docs/screenshots/24-evidence-centre.png" alt="RouteRescue Evidence Centre showing independently reproduced exact-solver and agent-challenge benchmarks" width="860" />
+<img src="docs/screenshots/24-evidence-centre.webp" alt="RouteRescue Evidence Centre showing independently reproduced exact-solver and agent-challenge benchmarks" width="860" />
 
 
 From the Dispatch sidebar, choose **Evidence Centre** (or open `/evidence`). It renders independently measured benchmark artifacts, an external exact-solver comparison, a downloadable raw JSON report, and a live **Challenge the Agent** panel. This panel calls the actual MCP-powered backend, not a scripted video; read-only investigation, approval rejection and operational-version changes are visible. Research details and reproducible commands are in [External Reference Validation](docs/EXTERNAL-REFERENCE-VALIDATION.md).
@@ -36,15 +36,15 @@ When volunteers cancel, community meal coordinators must rapidly reassign schedu
 5. Try a different volunteer, adjust a shift deadline, relax stop time windows, or select a different recovery strategy. Explore the route map and change in outcomes.
 6. Select **Analyse every single-driver failure** to rank current vulnerabilities. Open **Forensic state history** to see append-only *local* state checkpoints, or export portable scenario evidence for offline independent verification.
 
-![Resilience simulation with hypothetical backup capacity](docs/screenshots/17-resilience-backup-recovery.png)
+![Resilience simulation with hypothetical backup capacity](docs/screenshots/17-resilience-backup-recovery.webp)
 
 **From imagined rescue to human-reviewed action:** after the coordinator confirms facts, the live Incident Lab recomputes a separate approval-ready proposal.
 
-![Confirmed scenario staged with a human approval gate](docs/screenshots/22-staged-awaiting-approval.png)
+![Confirmed scenario staged with a human approval gate](docs/screenshots/22-staged-awaiting-approval.webp)
 
 On **375px mobile**, the complete interface is usable, with no horizontal page overflow:
 
-![375px responsive Resilience Lab](docs/screenshots/20-resilience-mobile-375.png)
+![375px responsive Resilience Lab](docs/screenshots/20-resilience-mobile-375.webp)
 
 ### Live decision-making remains separate
 

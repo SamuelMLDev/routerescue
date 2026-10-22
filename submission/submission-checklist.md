@@ -17,7 +17,7 @@
 | Exact-oracle evidence for 24 small benchmark instances | ✅ Reproducible | `npm run frontier-benchmark`, `benchmarks/frontier-results.json`; no OR-Tools runs |
 | Operational digital twin and failure-resilience sweep | ✅ Implemented | `server/twin.js`, `src/twin.js`, worker and API tests |
 | Confirmed-facts staging and exact pre-incident rollback | ✅ Implemented | `server/store.js`, `tests/staging.test.js`; never automatic approval |
-| Responsive Resilience Lab with verified simulations | ✅ Captured | `docs/screenshots/15-resilience-lab-empty.png` through `23-minimum-intervention-theatre.png` |
+| Responsive Resilience Lab with verified simulations | ✅ Captured | `docs/screenshots/15-resilience-lab-empty.webp` through `23-minimum-intervention-theatre.png` |
 | Independently verifiable portable recovery certificate | ✅ Implemented | `server/certificate.js`, offline CLI, `docs/ORACLE-EVIDENCE.md` |
 | Tiny exact optimum comparisons with measured gaps | ✅ Reproducible | `npm run oracle`, `benchmarks/oracle-results.json` |
 | Coordinator approval bound to exact proposal version | ✅ Implemented | `server/store.js`; token replay tests |
